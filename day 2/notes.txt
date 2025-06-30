@@ -1,0 +1,43 @@
+web Technologies : the technology used to design and develop the web page
+    1.html->hypertext markup language- structute of web pages
+    2.css->cascading style sheets-design /style of web pages
+    3.js->javascript-logic/functionlity of web pages
+ HTML:hypertext markup language
+      :used to provide structure /layout to the web pages
+      :introduced by TIM berners lee
+
+tags: tags are used to define the structure of the web pages
+     :tags are two types
+         1.paired tags/container tags
+         2.unpaired tags/non container tags/self closing tags
+        
+paired tags: it consists of opening tag and closing tag
+     <tagname> content </tagname>
+     ex:div,p,i,small,heading tags,etc
+unpaired tags: it consists of opening tag only
+     <tagname/>
+     ex:img,br,hr,etc.
+element: element is a combination of opening and closing tag and content
+    <tagname>content</tagname>
+comment tags: it is used to add comments in the web pages
+    :the content of the comment tags will not be displayed in the webpages
+    <!--comment content-->
+attributes: it is used to add additional information to the tags
+       :used in inside the opening tag
+       :the content of the attributes will not be displayed in the webpages
+       ex: src,href,alt,title,style etc,..
+Block level elements: the content of block level elements will be dispalyed in a new line
+       : it  occupies the full width of the page
+       ex:div,p,h1,h2,h3,h4,h5,h6,ui,ol,etc.
+    
+Inline level elements:the content of the inline elements will be dispalyed in the same line
+       :  it does not occupy the full width of the page
+       : it occupies required space
+       ex:span,a ,img,input,button,etc,,.
+List:
+------
+The content of the list will be displayed in a new line
+    1.ordered list
+    2.unordered list
+    3.data definition list
+    4.nested list

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.5;
+      color: #000;
+    }
+    h2 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    ol.questions {
+      list-style-type: decimal;
+      padding-left: 20px;
+      max-width: 600px;
+    }
+    ol.questions > li {
+      margin-bottom: 20px;
+    }
+    ol.questions > li > strong {
+      font-weight: bold;
+    }
+    ol.answers {
+      list-style-type: lower-roman;
+      padding-left: 30px;
+      margin-top: 8px;
+    }
+    ol.answers > li {
+      margin-bottom: 6px;
+      font-weight: normal;
+    }
+    .footer {
+      margin-top: 80px;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Arial Black', Arial, sans-serif;
+    }
+    .footer .topics {
+      color: #e91e63; /* pink color */
+      font-family: cursive, 'Comic Sans MS', sans-serif;
+      font-weight: normal;
+      font-size: 24px;
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Quiz</h2>
+  <ol class="questions">
+    <li><strong>HTML is an</strong> &emsp; <span style="border-bottom: 2px solid black; display: inline-block; width: 50px; margin-left: 5px;"></span> ? 
+      <ol class="answers">
+        <li>Markup language</li>
+        <li>Programming language</li>
+        <li>none of these</li>
+      </ol>
+    </li>
+    <li><strong>CSS is used for</strong>
+      <ol class="answers">
+        <li>Styling</li>
+        <li>scripting</li>
+        <li>none of these</li>
+      </ol>
+    </li>
+    <li><strong>Which of the following is dynamic from of HTML ?</strong>
+      <ol class="answers">
+        <li>XML</li>
+        <li>DHTML</li>
+        <li>none of these</li>
+      </ol>
+    </li>
+    <li><strong>Which of the following can be linked with HTML and CSS ?</strong>
+      <ol class="answers">
+        <li>javascript</li>
+        <li>C++</li>
+        <li>none of these</li>
+      </ol>
+    </li>
+  </ol>
+
+  <div class="footer">
+    SCALER<span class="topics">Topics</span>
+  </div>
+</body>
+</html>
