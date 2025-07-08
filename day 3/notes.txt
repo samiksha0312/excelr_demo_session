@@ -1,0 +1,54 @@
+CSS: Cascading style sheet
+-----
+     :used to design /style the web pages
+     :css files will save with .css extension
+     :css files will be linked to the html files using the<link>tag in html file.
+
+applying css to the web pages
+------------------------------
+    1.inline css
+    2.internal css
+    3.external css
+    
+1.inline css:it is used to apply the css to the web pages using the style attribute in html file.
+    ex:<p style="color:red;">lorem ipsum color sit amet.</p>
+    note:not recommended for large web page
+    >>it is recommended for small pages when we are applying style for a single element
+SELECTOR:it is used to select the elements in the web pages
+Syntax:
+   selector{
+    property:value;
+    property2:value;
+   }
+2.internal css: it is used to apply the css to the web pages using the<style> tag in html file
+     ex:   <style>
+                p{
+                    color:red;
+                }
+            </style>
+    NOTE:it is recommended for single web pages
+3.external css: it is used to apply the css to the web pages using the <link>tag in html file.
+      :need to create a css file with.css extension
+      :css file need to link to the html file using the <link>
+    ex:<link rel="stylesheet" href="external.css">
+    :rel>> relation ship between the css file and the html file
+    :href-url of the css file(hyper text reference)
+    NOTE: recommended for multiple web pages
+
+Box Model:
+--------------
+:used to design the layoout of the web pages
+:box model consist of content,padding,border and margin
+:content: it is the content of the box model
+padding:the sppace between the content and the border
+border:the border of the box model
+margin:the space between the box model (element) and the other box models(element)
+block level elements:
+        :elements occupy the full width of the page
+        :it does not support height and width
+
+convertion of block level elements:
+--------------------------------
+   display:inline-block: it supports height and width 
+   or
+   display:inline;--it wont support height and width

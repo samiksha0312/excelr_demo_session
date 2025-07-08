@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex 1 task</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            border: 1px solid black;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            /* main axis */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: space-around;
+            align-items: center;
+        }
+        .item{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            /* text-align: center; */
+            line-height: 100px;
+        }
+        .first{
+            background-color: blueviolet;
+        }
+        .second{
+            background-color: blanchedalmond;
+        }
+        .third{
+            background-color: aquamarine;
+        }
+        .fourth{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first item">One</div>
+        <div class="second item">Two</div>
+        <div class="third item">Three</div>
+        <div class="fourth item">Four</div>
+    </div>
+</body>
+</html>

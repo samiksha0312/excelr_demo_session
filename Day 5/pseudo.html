@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo class and pseudo element</title>
+    <style>
+        p{
+            color: blueviolet;
+            font-size: 20px;
+        }
+        p:hover{
+            color: pink;
+            font-size: 30px;
+        }
+        /* div{
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+        }
+        div:hover{
+            background-color: black;
+            width: 100px;
+            height: 100px;
+        } */
+        /*unvisited links*/
+        a:link{
+            color: green;
+            text-decoration: none;
+        }
+        /*active links*/
+        a:active{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: yellow;
+            text-decoration: underline;
+        }
+        .l1::first-line{
+            color: blue;
+            size: 20px;
+        }
+        .l2::first-letter{
+            color: red;
+            size: 30px;
+        }
+        .l1::selection{
+            color: rgb(188, 188, 237);
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem et autem commodi sit ut molestiae distinctio blanditiis cum, optio 
+        quod magni inventore explicabo. Ducimus modi ratione perferendis, quidem accusantium neque!</p>
+    <div></div>
+    <a href="https://www.myntra.com/">Myntra</a>
+    <a href="https://www.zomato.com/">zomato</a>
+<br><br>
+    <div class="l1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nisi consequatur facere.<br> Beatae error aliquid aspernatur at 
+        eveniet quos hic debitis dicta maiores quo? Ratione iste error excepturi odio nobis!</div>
+<br>
+
+<div class="l2">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit temporibus excepturi odio eos maiores, dicta perferendis velit, 
+    <br>ullam ipsum minus praesentium et enim, sapiente dignissimos consequuntur deleniti quasi magnam fugiat?
+</div>
+</body>
+</html>

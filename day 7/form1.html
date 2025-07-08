@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <style>
+        input[required]{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://httpbin.org/get" method="get">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="userName" required>
+<br><br>
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="Enter the password" id="pass" name="userPassword" required><br><br>
+        <!--<button type="submit">Submit</button>
+        <button type="reset">Reset</button>-->
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>

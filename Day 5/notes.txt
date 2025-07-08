@@ -15,11 +15,33 @@ Merging of a cell:
 2. rowspan attribute - used to merge a cell vertically
 
 Properties / Attributes of table tags : 
-----------------------
+---------------------------------------
 1. cellspacing - used to provide space between cell to cell
 2. cellpadding - used to provide space between cell and border
 3. border - used to provide border
 4. align - used to align content horizontally (left, center, right)
 5. bgcolor - used to provide background color
-6. style - used to provide styling
+6. style - used to provide styling.
+7. width - used to provide width
+8. height- used to provide height
 
+pseudo classes:
+---------------
+- pseudo class are used to apply styles to element based on their state or behavior
+- indicated with : and followed by class name of the pseudo class 
+- ex:  :hover, :active, :visited, :link, etc
+
+Link states:
+-------------
+unvisited - blue : link attribute is used to style the link when it is not visited
+active - red : active attribute is used to style the link when it is active
+visited - purple : visited attribute is used to style the link when it is visited
+
+pseudo elements:
+----------------
+- it is used to apply styles to specific parts of an element
+- indicated with :: and followed by the name of the pseudo element
+- ex: ::before, ::after, ::first-line, ::first-letter, etc
+
+NOTE: pseudo elements are not supported for inline elements(span)
+:nth-child()
